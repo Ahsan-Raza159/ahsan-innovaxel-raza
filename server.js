@@ -3,7 +3,7 @@ const mysql = require('mysql2');
 const cors = require('cors');
 require('dotenv').config();
 
-// Create Express app
+// Create Express  app
 const app = express();
 const PORT = process.env.PORT || 3000;
 
